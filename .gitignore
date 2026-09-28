@@ -1,1 +1,18 @@
-node_modules
+# Node
+node_modules/
+npm-debug.log
+
+# Docker
+.env
+
+# Terraform — DO NOT commit
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.pem
+terraform/terraform.tfvars
+terraform/crash.log
+terraform/crash.*.log
+
+# Keep these (Terraform config only, no secrets):
+!terraform/*.tf

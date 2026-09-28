@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+.env
+terraform
+README.md
+.vscode
+.idea
+todolist-key.pem
